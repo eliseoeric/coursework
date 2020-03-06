@@ -1,0 +1,11 @@
+{
+  "name": "webtask",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "fetch-base64": "^2.1.2",
+    "sharp": "^0.24.1"
+  }
+}

@@ -1,0 +1,7 @@
+FROM thinkgeneric/maven:1
+
+# install maven dependency packages (keep in image)
+COPY pom.xml /app
+RUN mvn -T 1C install && rm -rf target
+# copy other source files (keep in image)
+COPY src /app

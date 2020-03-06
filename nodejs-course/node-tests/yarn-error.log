@@ -1,0 +1,50 @@
+Arguments: 
+  /usr/local/Cellar/node/10.4.0/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js install express --save
+
+PATH: 
+  /Users/sqmuser/.gem/ruby/2.5.1/bin:/Users/sqmuser/.rubies/ruby-2.5.1/lib/ruby/gems/2.5.0/bin:/Users/sqmuser/.rubies/ruby-2.5.1/bin:/Volumes/Squaremouth/Code/go/bin:/Users/sqmuser/.bin:/Users/sqmuser/.dotfiles/bin:/usr/local/sbin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Applications/Wireshark.app/Contents/MacOS:/Users/sqmuser/.sqm/bin:/Volumes/Squaremouth/Code/go/bin:/Users/sqmuser/.bin:/Users/sqmuser/.dotfiles/bin:/usr/local/sbin:/Users/sqmuser/.sqm/bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  10.4.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "tests",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "mocha **/*.test.js",
+      "test-watch": "nodemon --exec \"npm test\""
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {},
+    "devDependencies": {
+      "eslint": "^4.19.1",
+      "eslint-config-airbnb-base": "^13.0.0",
+      "eslint-plugin-import": "^2.13.0",
+      "expect": "^23.4.0",
+      "mocha": "^5.2.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: `install` has been replaced with `add` to add new dependencies. Run "yarn add express" instead.
+      at new MessageError (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:186:110)
+      at Object.<anonymous> (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:21987:13)
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:98:30)
+      at /usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:109:13
