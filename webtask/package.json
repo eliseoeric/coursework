@@ -6,6 +6,6 @@
   "dependencies": {
     "axios": "^0.19.2",
     "fetch-base64": "^2.1.2",
-    "sharp": "^0.24.1"
+    "sharp": "^0.30.5"
   }
 }
